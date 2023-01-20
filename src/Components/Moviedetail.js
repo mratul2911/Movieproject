@@ -25,12 +25,12 @@ function Moviedetail() {
       <Nav />
       <div className="container">
         <div
-          style={{ height: "600px", width: "500px" }}
+          style={{ height: "600px", width: "350px" }}
           className="card"
           // style={{ width: "250px", float: "left", height: "350px" }}
         >
           <img
-            style={{ width: "500px", height: "300px" }}
+            style={{ width: "350px", height: "300px" }}
             className="card-img-top"
             src={`https://image.tmdb.org/t/p/w500/${mdetail.poster_path}`}
             alt="Card image cap"
